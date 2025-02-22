@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+.main {
+  background: #f1f1f1;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.spacer {
+  margin-top: 32px;
+}
+
+.form {
+  width: 400px;
+  min-height: 100px;
+  background: #fff;
+  text-align: center;
+  align-self: center;
+  padding: 32px 32px;
+  line-height: 1.5;
+}
+
+.heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.desc {
+  font-size: 1.4rem;
+}
+
+.form-group,
+.form-link {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.form-group label,
+.form-group .form-message,
+.form-link {
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.form-group label .form-group input {
+  margin-bottom: 8px;
+}
+
+.form-group label {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.form-group .form-control {
+  border: 1px solid #333;
+  border-radius: 2px;
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  outline: none;
+}
+
+.form-group .form-control:invalid {
+  border-color: #f33a58;
+}
+
+.form-group .form-control:hover {
+  border-color: #1dbfaf;
+}
+
+.form-group .form-message {
+  color: #f33a58;
+}
+
+.form-submit {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.form-submit:hover {
+  background-color: #1ac7b6;
+}
